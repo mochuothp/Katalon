@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Mak
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'sssss1234')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'test')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
