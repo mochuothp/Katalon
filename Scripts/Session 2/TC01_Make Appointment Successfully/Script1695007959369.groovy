@@ -33,11 +33,17 @@ WebUI.click(findTestObject('Loginpage/btn_Login'))
 
 WebUI.selectOptionByValue(findTestObject('Appointmentpage/slt_facility'), 'Seoul CURA Healthcare Center', false)
 
-WebUI.getText(findTestObject('Appointmentpage/slt_facility'))
+WebUI.click(findTestObject('Appointmentpage/chk_readmission'))
 
 WebUI.click(findTestObject('Appointmentpage/chk_healthcare'))
 
 WebUI.setText(findTestObject('Appointmentpage/inp_visitDate'), '11/09/2023')
+
+WebUI.setText(findTestObject('Appointmentpage/txtarea_comment'), 'test comment')
+
+WebUI.click(findTestObject('Appointmentpage/btn_submit'))
+
+WebUI.verifyElementVisible(findTestObject('Summarypage/section_summary'))
 
 WebUI.closeBrowser()
 
