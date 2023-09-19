@@ -23,15 +23,21 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Session 2/Homepage/a_Make Appointment'))
+WebUI.click(findTestObject('Homepage/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Session 2/Loginpage/inp_username'), 'John Doe')
+WebUI.setText(findTestObject('Loginpage/inp_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Session 2/Loginpage/inp_password'), 'ThisIsNotAPassword')
+WebUI.setText(findTestObject('Loginpage/inp_password'), 'ThisIsNotAPassword')
 
-WebUI.click(findTestObject('Session 2/Loginpage/btn_Login'))
+WebUI.click(findTestObject('Loginpage/btn_Login'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'))
+WebUI.selectOptionByValue(findTestObject('Appointmentpage/slt_facility'), 'Seoul CURA Healthcare Center', false)
+
+WebUI.getText(findTestObject('Appointmentpage/slt_facility'))
+
+WebUI.click(findTestObject('Appointmentpage/chk_healthcare'))
+
+WebUI.setText(findTestObject('Appointmentpage/inp_visitDate'), '11/09/2023')
 
 WebUI.closeBrowser()
 

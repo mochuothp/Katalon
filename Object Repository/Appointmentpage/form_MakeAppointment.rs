@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>p_errorMsg</name>
+   <name>form_makeAppointment</name>
    <tag></tag>
-   <elementGuidId>dcbe1693-4993-47e3-bf10-30a56c0c95a6</elementGuidId>
+   <elementGuidId>e964719f-80af-4deb-b1aa-57ddf4d5257d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>h2</value>
+         <value>.form-horizontal</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//p[contains(text(),'Login failed!')]</value>
+         <value>.form-horizontal</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>61f6d5a1-cf93-479b-988d-d5aacdf39f5f</webElementGuid>
+      <webElementGuid>2f9c6d1c-905c-49d7-b90c-38e2927569cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Make Appointment</value>
-      <webElementGuid>bd3170c0-f746-47f1-b6ea-e89fd7c1c4c5</webElementGuid>
+      <webElementGuid>3fcb4acb-41cc-4ee1-b33b-3fd75fd26ccb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 text-center&quot;]/h2[1]</value>
-      <webElementGuid>3a42b5e5-8c78-48e9-b0dd-0aa69e6fb2da</webElementGuid>
+      <webElementGuid>7ac73504-78ba-43ed-90d5-6520c1ba55ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='appointment']/div/div/div/h2</value>
-      <webElementGuid>aa2a7714-06a7-4502-b10d-cf1219e40b5a</webElementGuid>
+      <webElementGuid>fc488f1c-34a0-45f2-83ab-e2010261fcc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::h2[1]</value>
-      <webElementGuid>1ac5c195-026b-4d08-9793-ed2c6648c1f3</webElementGuid>
+      <webElementGuid>9145c9a5-6919-48b8-81fa-da83ea514692</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/following::h2[1]</value>
-      <webElementGuid>111b2a5b-0c65-4618-b9ce-8eb0370f1c93</webElementGuid>
+      <webElementGuid>6399cf5f-4ab7-45fc-b007-371ee68e0224</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[1]/preceding::h2[1]</value>
-      <webElementGuid>c3aa2952-c37e-4779-84ed-dc4e6606a25e</webElementGuid>
+      <webElementGuid>0a0c0019-54b0-4e75-9a32-7fc68eb0d59f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
-      <webElementGuid>98ab0f76-b9ca-4327-8027-46a3b3977ae9</webElementGuid>
+      <webElementGuid>9bc6dde6-5674-46e1-915b-456f2df0f908</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Make Appointment' or . = 'Make Appointment')]</value>
-      <webElementGuid>d87fd0da-5211-4250-b085-b109586cfa21</webElementGuid>
+      <webElementGuid>91cceeff-bc8c-4ce1-907a-764689754fa4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

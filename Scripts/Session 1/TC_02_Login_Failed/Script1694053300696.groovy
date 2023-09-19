@@ -23,15 +23,15 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Homepage/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Loginpage/inp_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'test')
+WebUI.setText(findTestObject('Loginpage/inp_password'), 'test')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Loginpage/btn_Login'))
 
-WebUI.verifyElementVisible(findTestObject('Page_CURA Healthcare Service/p_Login Error Msg'))
+WebUI.verifyElementVisible(findTestObject('Loginpage/p_errorMsg'))
 
 WebUI.takeFullPageScreenshot()
 
